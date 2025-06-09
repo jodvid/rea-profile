@@ -3,10 +3,10 @@ const text = document.querySelector('.typing-text');
 
     // make a words array
     const words = [
-    "a Data Scientist.",
+    "a Tactical Arbitrage Specialist.",
+    "a Data Analyst.",
     "a Facebook Ad Specialist.",
-    "a Mechanical Engineer",
-    "a Team-player.",  
+    "a Mechanical Engineer.",
     "a Entrepreneur.",  
     ];
 

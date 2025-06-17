@@ -12,22 +12,37 @@ body {
   background-color: #0b0c10;
 }
 
-.float {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 40px;
-	right: 40px;
-	background-color: $dark-blue-text;
-	color: #0b30ac;
-	border-radius: 50px;
-	text-align: center;
-	box-shadow: 2px 2px 3px #000000;
-	z-index: 9999; /* Always on top */
-	cursor: pointer;
-}
+// .float {
+// 	position: fixed;
+// 	width: 60px;
+// 	height: 60px;
+// 	bottom: 40px;
+// 	right: 40px;
+// 	background-color: $dark-blue-text;
+// 	color: #0b30ac;
+// 	border-radius: 50px;
+// 	text-align: center;
+// 	box-shadow: 2px 2px 3px #000000;
+// 	z-index: 9999; /* Always on top */
+// 	cursor: pointer;
+// }
 
-.my-float {
-	margin-top: 22px;
-	font-size: 20px;
+// .my-float {
+// 	margin-top: 22px;
+// 	font-size: 20px;
+// }
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
+	height: 0;
+	overflow: hidden;
+	border-radius: 0.5rem; /* Apply rounded corners */
+}
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; /* Make iframe take full width of its parent container */
+	height: 100%; /* Make iframe take full height of its parent container */
 }

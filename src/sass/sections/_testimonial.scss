@@ -12,8 +12,6 @@
   .project-wrapper {
     margin-bottom: 15rem;
 
-
-
     @include respond(phone) {
       margin-bottom: 0rem;
     }
@@ -42,7 +40,7 @@
         font-size: $mid-font-size;
 
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: 1.6rem;
         }
       }
 

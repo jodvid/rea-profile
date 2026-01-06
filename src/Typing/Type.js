@@ -3,7 +3,7 @@ const text = document.querySelector('.typing-text');
 
     // make a words array
     const words = [
-    "Automation Specialist.",
+    "a Automation Specialist.",
     "a Data Analyst.",
     "a Mechanical Engineer.",
     ];
